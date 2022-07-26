@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModifierProfileActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ancien Mot de Passe"
+        android:id="@+id/Ancien"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Nouveau"
+        android:hint="Nouveau Mot de Passe"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmer Mot de Passe"
+        android:id="@+id/Confirmer"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modifier"
+        android:textAllCaps="false"
+        android:id="@+id/Modifier"/>
+</LinearLayout>
